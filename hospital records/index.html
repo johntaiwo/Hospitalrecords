@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hospital Record</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="name">
+                    <h1>HOSPITAL RECORD</h1>
+                </div>
+    
+                <div class="search">
+                    <form method="post" action="#" id="searchform" role="search">
+                        <input type="search" name="" id="search" placeholder="type here to search">
+                        <button type="submit">search</button>
+                    </form>
+                </div>
+            </header>
+           
+
+            <div class="login">
+
+                <form method="POST" id="login">
+                    
+                    <button type="button" class="login-button">User-Login</button>
+
+                    <fieldset class="login-field">
+                        
+                    <br><label for="Username" class="Username">User-ID</label>
+                        <input type="text" placeholder="enter user-ID" id="user-ID">
+                    <br><br><label for="Password" class="password">Password</label>
+                        <input type="password" placeholder="enter password" id="password">
+                    <br><input type="button" value="login" id= "userLogin" onclick="validateUser()">
+
+                    </fieldset>
+                    
+                </form>
+
+            </div>
+
+            <div class="admin">
+
+                <form method="post" id="admin-login">
+
+                    <button type="button" class="admin-button">Admin-Login</button>
+
+                    <fieldset class="admin-field">
+                       
+                    <br><label for="adminName" class="adminName">User-ID</label>
+                        <input type="text" placeholder="enter admin-ID" id="admin-ID">
+                    <br><br><label for="adminPassword" class="adminPassword">Password</label>
+                        <input type="password" placeholder="enter password" id="adminPassword">
+                    <br><input type="button" value="login" id="adminLogin" onclick="validateAdmin()">
+
+                    </fieldset>
+                </form>
+
+            </div>
+
+            
+            <div class="empty"></div>
+            
+        </div>
+        
+        <script src="main.js" ></script>
+    </body>
+</html>

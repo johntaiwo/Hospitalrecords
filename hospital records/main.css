@@ -1,0 +1,133 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    background-color: rgb(124, 157, 250);
+    background-image: url("/img/hosimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.search{
+
+    margin: 0 0 auto 70%;
+    padding: 0;
+}
+
+.login{
+    
+    width: fit-content;
+    padding: 0 30px;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    /*transform: translate(-50%, -50%);*/
+    text-align: center;
+    border: 0;
+
+}
+
+.admin{
+    
+    width: fit-content;
+    padding: 0 30px;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    /*transform: translate(-50%, -50%);*/
+    text-align: center;
+    border: 0;
+
+}
+
+fieldset{
+    border: none;
+}
+
+button, input[type="submit"], input[type="button"]{
+    
+    background: none;
+    font-size: large;
+    border: 5px solid deepskyblue;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: 0.25px;
+
+}
+ button[type="reset"], button[type="reset"]:active{
+     border-radius: 20px;
+     font-size: small;
+     outline: none;
+ }
+
+input[type="text"], input[type="password"], input[type="search"], input[type="date"]{
+    
+    border: 0;
+    background: none;
+    display: flexbox;
+    margin: 0;
+    text-align: center;
+    border: 5px solid deepskyblue;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 13px;
+    width: 220px;
+    height: 30px;
+    outline: none;
+    color: rgb(17, 15, 15);
+    transition: 0.25px;
+
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="search"]:focus{
+    
+    font-size: 15px;
+
+}
+
+input[type="text"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="button"]:focus{
+    
+    font-size: 15px;
+
+}
+
+
+button:hover, input[type="submit"]:hover, input[type="submit"]:active{
+    
+    background: cornflowerblue;
+    outline: none;
+
+}
+
+.Username, .adminName{
+    
+    padding-right: 9px ;
+
+    
+}
+
+h1{
+    
+    text-align: center;
+
+}
+
+.registration1{
+
+    margin-top: 0;
+    position: relative;
+    left: 81%;
+
+}
+.registration1, .registration2{
+    margin-top: 0;
+    padding-top: 0;
+}
+.empty{
+    
+    padding-top: 0px;
+    
+}
